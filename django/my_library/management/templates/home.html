@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+{% extends "index.html" %}
+{% load static %}
+
+
+{% block main_content %}
+<main role="main">
+<div class="jumbotron">
+<div class="container">
+<img src="{% static '/library.jpg' %}" class="rounded float-start" alt="library" height="200" style="margin-right: 10px; " ></span>
+<h1 class="display-4">Hello, Readers</h1>
+<p>Welcome to The Library, We have a large collection of books to cater for ypur reading needs.</p>
+<p><button type="button" class="btn btn-primary btn-lg">Browse through our collection>></button></p>
+
+</div>
+</div>
+
+<div class="container">
+    <div class="row">
+      <div class="col">
+        <h2>Why Reading Is Important?</h2>
+        <p>Reading is important because it develops your mind and gives you excessive knowledge and lessons of life. It helps you understand the world around you better. It keeps your mind active and enhances your creative ability. Communication Skills: Reading improves your vocabulary and develops your communication skills.</p>
+      </div>
+      <div class="col">
+        <h2>Key Benefits</h2>
+        <ul>
+            <li>Improves brain connectivity.</li>
+            <li>Lowers blood pressure and heart rate.</li>
+            <li>Increases your vocabulary and comprehension.</li>
+            <li>Empowers you to empathize with other people.</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h2>Thought Of The Day</h2>
+        <p>"Books are good company, in sad times and happy times, for books are people – people who have managed to stay alive by hiding between the covers of a book." ― E.B. White</p>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <footer class="container">
+    <p>&copy;The Library 2023</p>
+  </footer>
+  
+
+{% endblock %}
